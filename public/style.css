@@ -1,0 +1,50 @@
+
+input {
+    border-radius: 0.5em;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 0.5em;
+  }
+
+#submitNewEmployeeDiv{
+    background-color: cornflowerblue; 
+  }
+
+.inTheRed{
+    background-color: red;
+}
+
+#submitNewEmployeeDiv{
+    align-items: center;
+}
+
+#submitNewEmployee{
+    align-items: center;
+}
+
+#totalMonthlyCost{
+
+}
+
+#submitNewEmployee{
+
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#tableHeadings{
+    background-color: cornflowerblue;
+}
+#inputFields{
+    background-color: cornflowerblue;
+}
+
+.aliceblue{
+    background-color: gainsboro;
+}
+
+.white{
+    background-color: white;
+}

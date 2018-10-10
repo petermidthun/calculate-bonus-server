@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="client.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1 ALIGN=CENTER>Salary Calculator</h1></header>
+  <div>
+      <h2>Add Employee</h2>
+  </div>
+      
+  <div id=inputFields>
+
+    <label for="First Name">First Name:</label>
+    <input id="FirstName" type="text" placeholder="First Name"/>
+    <label for="LastName">Last Name:</label>
+    <input id="LastName" type="text" placeholder="Last Name" />
+    <label for="ID">ID:</label>
+    <input id="ID"  type="number" placeholder="ID" />
+    <label for="Title">Title:</label>
+    <input id="Title" type="text" placeholder="Title"/>
+    <label for="AnnualSalary">Annual Salary:</label>
+    <input id="AnnualSalary" type="number" placeholder="Annual Salary"/>
+      </div>
+  <div id=submitNewEmployeeDiv>
+    <button id="submitNewEmployee" >Submit</button>
+
+  </div>
+    <div>
+            <h2>Employees</h2>
+    </div>
+    <div id="tableHeadings">
+          <table style="width:100%">
+                <tr>
+                  <td>Firstname</td>
+                  <td>Lastname</td>
+                  <td>ID</td>
+                  <td>Title</td>
+                  <td>Annual Salary</td>
+                  <td>Delete Employee</td>
+                </tr>
+  
+                <tbody id="tableBodyOfEmployees">
+                </tbody>
+
+
+                <tr id="tablefooter">
+                    <td> * Total Monthly rounded to the nearest cent </td>
+                </tr>
+              </table>
+        </div>
+        <div id="totalMonthlyCost" ALIGN=RIGHT >
+            <h2>Total Monthly: $0.00</h2> 
+        </div>
+ 
+</body>
+</html>
